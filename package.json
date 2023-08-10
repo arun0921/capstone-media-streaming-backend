@@ -1,0 +1,40 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "template.js",
+  "scripts": {
+    "start": "node template.js",
+    "dev": "nodemon template.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arun",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
+    "nodemon": "^1.19.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-middleware": "^3.1.2",
+    "webpack-hot-middleware": "^2.22.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "formidable": "^1.2.2",
+    "gridfs-stream": "^1.1.1",
+    "helmet": "^3.23.3",
+    "isomorphic-fetch": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-then": "^1.0.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.20",
+    "socket.io": "^2.3.0"
+  }
+}
